@@ -17,6 +17,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.6" />
     <PackageReference Include="Microsoft.Playwright" Version="1.44.0" />
     <PackageReference Include="Moq" Version="4.20.70" />
+    <PackageReference Include="NetMQ" Version="4.0.1.13" />
     <PackageReference Include="xunit" Version="2.8.1" />
   </ItemGroup>
 

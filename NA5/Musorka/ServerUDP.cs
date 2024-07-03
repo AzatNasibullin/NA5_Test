@@ -1,4 +1,4 @@
-﻿using EFSeminar.Models;
+﻿using NA5.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NA5
+namespace NA5.Musorka
 {
     internal class ServerUDP
     {

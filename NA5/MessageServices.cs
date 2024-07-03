@@ -1,5 +1,4 @@
-﻿using EFSeminar.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using NA5.Models;
 using System;
 using System.Collections.Generic;

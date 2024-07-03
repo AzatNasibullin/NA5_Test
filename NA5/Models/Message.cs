@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace NA5.Models
@@ -22,6 +23,17 @@ namespace NA5.Models
         public override string ToString()
         {
             return $"{DateSend}.Получено сообщение {Text}";
+        }
+        public string SerializeMessageToJson()
+        {
+            return JsonSerializer.Serialize(this);
+        }
+
+        public static Message? DeserializeFromJson(string message) => JsonSerializer.Deserialize<Message>(message);
+
+        public void Print()
+        {
+            Console.WriteLine(ToString());
         }
     }
 }

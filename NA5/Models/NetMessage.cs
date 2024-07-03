@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 using Microsoft.EntityFrameworkCore;
 
-namespace EFSeminar.Models
+namespace NA5.Models
 {
     public enum Command
     {
